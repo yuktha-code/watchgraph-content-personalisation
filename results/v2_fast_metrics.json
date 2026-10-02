@@ -1,0 +1,70 @@
+{
+  "split": {
+    "train_rows": 98096,
+    "validation_rows": 942,
+    "test_rows": 942,
+    "users": 942
+  },
+  "validation_alpha_results": {
+    "0.0": {
+      "precision@10": 0.006475583864118895,
+      "recall@10": 0.06475583864118896,
+      "ndcg@10": 0.029016439205292396,
+      "evaluated_users": 942,
+      "catalog_count": 76
+    },
+    "0.25": {
+      "precision@10": 0.008280254777070064,
+      "recall@10": 0.08280254777070063,
+      "ndcg@10": 0.04119488782110864,
+      "evaluated_users": 942,
+      "catalog_count": 103
+    },
+    "0.5": {
+      "precision@10": 0.00912951167728238,
+      "recall@10": 0.09129511677282377,
+      "ndcg@10": 0.05114373203397741,
+      "evaluated_users": 942,
+      "catalog_count": 197
+    },
+    "0.75": {
+      "precision@10": 0.009978768577494692,
+      "recall@10": 0.09978768577494693,
+      "ndcg@10": 0.0574317237050526,
+      "evaluated_users": 942,
+      "catalog_count": 352
+    },
+    "1.0": {
+      "precision@10": 0.01050955414012739,
+      "recall@10": 0.10509554140127389,
+      "ndcg@10": 0.05827243716989309,
+      "evaluated_users": 942,
+      "catalog_count": 474
+    }
+  },
+  "best_alpha_svd": 1.0,
+  "test_results": {
+    "popularity": {
+      "precision@10": 0.0065817409766454355,
+      "recall@10": 0.06581740976645435,
+      "ndcg@10": 0.03237963818650069,
+      "evaluated_users": 942,
+      "catalog_coverage": 0.04399524375743163
+    },
+    "svd": {
+      "precision@10": 0.009872611464968154,
+      "recall@10": 0.09872611464968153,
+      "ndcg@10": 0.05654404023866665,
+      "evaluated_users": 942,
+      "catalog_coverage": 0.2812128418549346
+    },
+    "tuned_svd_popularity": {
+      "precision@10": 0.009872611464968154,
+      "recall@10": 0.09872611464968153,
+      "ndcg@10": 0.05654404023866665,
+      "evaluated_users": 942,
+      "catalog_coverage": 0.2812128418549346
+    }
+  },
+  "svd_explained_variance_ratio": 0.3335101173585189
+}
